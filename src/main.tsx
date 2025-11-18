@@ -4,10 +4,9 @@ import { BrowserRouter } from "react-router";
 import RouterConfig from "./RouterConfig.tsx";
 
 createRoot(document.getElementById("root")!).render(
-  <BrowserRouter>
+  <BrowserRouter basename="/KamKetPaper/">
     <StrictMode>
       <RouterConfig/>
     </StrictMode>
-    ,
   </BrowserRouter>
 );
